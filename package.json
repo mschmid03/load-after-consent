@@ -1,0 +1,11 @@
+{
+	"name": "load-after-consent",
+	"version": "1.0.0",
+	"description": "Snippet to load content of container after user gave consent.",
+	"main": "load-after-consent.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "mschmid03",
+	"license": "ISC"
+}
