@@ -1,5 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
-	document.querySelectorAll('[stu03-csl-element="consent-container"]');
+	const consentLoaders = document.querySelectorAll(
+		'[stu03-csl-element="consent-container"]'
+	);
 	if (consentLoaders.length > 0) {
 		consentLoaders.forEach((consentLoader) => {
 			const contentType = consentLoader.getAttribute("stu03-csl-type");
